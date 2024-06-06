@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#output{
+    height: 40vh;
+    background-color: grey;
+    position: relative;
+}
+
+#atbtm{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 3rem;
+}
+
+#digits{
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box , .func , .box2{
+    width: 25%;
+    height: 20%;
+    color: red;
+    background-color: black;
+    border: none;
+    font-size: 1.5rem;
+}
+.box2{
+    color: white;
+}
+
+.box:active , .func:active , .box2:active{
+    opacity: 0.95;
+}
+
+@media screen and (max-width: 459px) {
+    #big{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    #big{
+        font-size: 1rem;
+    }
+}
